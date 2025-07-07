@@ -105,39 +105,39 @@ if dm_bins:
   cats['mt'] = []
   for i, dm in enumerate([0,1,2,10,11]):
     cats['mt'] += [
-     ((i+1)*100+1,  'mt_DM%i_tau_mTLt65%s_pT_20_to_25'   % (dm,cat_extra)),
-     ((i+1)*100+2,  'mt_DM%i_tau_mTLt65%s_pT_25_to_30'   % (dm,cat_extra)),
-     ((i+1)*100+3,  'mt_DM%i_tau_mTLt65%s_pT_30_to_35'   % (dm,cat_extra)),
-     ((i+1)*100+4,  'mt_DM%i_tau_mTLt65%s_pT_35_to_40'   % (dm,cat_extra)),
-     ((i+1)*100+5,  'mt_DM%i_tau_mTLt65%s_pT_40_to_50'   % (dm,cat_extra)),
-     ((i+1)*100+6,  'mt_DM%i_tau_mTLt65%s_pT_50_to_60'   % (dm,cat_extra)),
-     ((i+1)*100+7,  'mt_DM%i_tau_mTLt65%s_pT_60_to_80'   % (dm,cat_extra)),
-     ((i+1)*100+8,  'mt_DM%i_tau_mTLt65%s_pT_80_to_100'  % (dm,cat_extra)),
-     ((i+1)*100+9,  'mt_DM%i_tau_mTLt65%s_pT_100_to_200' % (dm,cat_extra)),
+    ((i+1)*100+1,  'mt_DM%i_tau_cp_mTLt65%s_pT_20_to_25'   % (dm,cat_extra)),
+    ((i+1)*100+2,  'mt_DM%i_tau_cp_mTLt65%s_pT_25_to_30'   % (dm,cat_extra)),
+    ((i+1)*100+3,  'mt_DM%i_tau_cp_mTLt65%s_pT_30_to_35'   % (dm,cat_extra)),
+    ((i+1)*100+4,  'mt_DM%i_tau_cp_mTLt65%s_pT_35_to_40'   % (dm,cat_extra)),
+    ((i+1)*100+5,  'mt_DM%i_tau_cp_mTLt65%s_pT_40_to_50'   % (dm,cat_extra)),
+    ((i+1)*100+6,  'mt_DM%i_tau_cp_mTLt65%s_pT_50_to_60'   % (dm,cat_extra)),
+    ((i+1)*100+7,  'mt_DM%i_tau_cp_mTLt65%s_pT_60_to_80'   % (dm,cat_extra)),
+    ((i+1)*100+8,  'mt_DM%i_tau_cp_mTLt65%s_pT_80_to_100'  % (dm,cat_extra)),
+    ((i+1)*100+9,  'mt_DM%i_tau_cp_mTLt65%s_pT_100_to_200' % (dm,cat_extra)),
     ]
 
     if useCRs:
       cats['mt'] += [
-       ((i+1)*100+11,  'mt_DM%i_tau_mTGt70%s_pT_20_to_25'   % (dm,cat_extra)),
-       ((i+1)*100+12,  'mt_DM%i_tau_mTGt70%s_pT_25_to_30'   % (dm,cat_extra)),
-       ((i+1)*100+13,  'mt_DM%i_tau_mTGt70%s_pT_30_to_35'   % (dm,cat_extra)),
-       ((i+1)*100+14,  'mt_DM%i_tau_mTGt70%s_pT_35_to_40'   % (dm,cat_extra)),
-       ((i+1)*100+15,  'mt_DM%i_tau_mTGt70%s_pT_40_to_50'   % (dm,cat_extra)),
-       ((i+1)*100+16,  'mt_DM%i_tau_mTGt70%s_pT_50_to_60'   % (dm,cat_extra)),
-       ((i+1)*100+17,  'mt_DM%i_tau_mTGt70%s_pT_60_to_80'   % (dm,cat_extra)),
-       ((i+1)*100+18,  'mt_DM%i_tau_mTGt70%s_pT_80_to_100'  % (dm,cat_extra)),
-       ((i+1)*100+19,  'mt_DM%i_tau_mTGt70%s_pT_100_to_200' % (dm,cat_extra)),
-
-      #  ((i+1)*100+21,  'mt_DM%i_tau_mTLt65%s_aiso_pT_20_to_25'   % (dm,cat_extra)),
-      #  ((i+1)*100+22,  'mt_DM%i_tau_mTLt65%s_aiso_pT_25_to_30'   % (dm,cat_extra)),
-      #  ((i+1)*100+23,  'mt_DM%i_tau_mTLt65%s_aiso_pT_30_to_35'   % (dm,cat_extra)),
-      #  ((i+1)*100+24,  'mt_DM%i_tau_mTLt65%s_aiso_pT_35_to_40'   % (dm,cat_extra)),
-      #  ((i+1)*100+25,  'mt_DM%i_tau_mTLt65%s_aiso_pT_40_to_50'   % (dm,cat_extra)),
-      #  ((i+1)*100+26,  'mt_DM%i_tau_mTLt65%s_aiso_pT_50_to_60'   % (dm,cat_extra)),
-      #  ((i+1)*100+27,  'mt_DM%i_tau_mTLt65%s_aiso_pT_60_to_80'   % (dm,cat_extra)),
-      #  ((i+1)*100+28,  'mt_DM%i_tau_mTLt65%s_aiso_pT_80_to_100'  % (dm,cat_extra)),
-      #  ((i+1)*100+29,  'mt_DM%i_tau_mTLt65%s_aiso_pT_100_to_200' % (dm,cat_extra)),
+      ((i+1)*100+11,  'mt_DM%i_tau_cp_mTGt70%s_pT_20_to_25'   % (dm,cat_extra)),
+      ((i+1)*100+12,  'mt_DM%i_tau_cp_mTGt70%s_pT_25_to_30'   % (dm,cat_extra)),
+      ((i+1)*100+13,  'mt_DM%i_tau_cp_mTGt70%s_pT_30_to_35'   % (dm,cat_extra)),
+      ((i+1)*100+14,  'mt_DM%i_tau_cp_mTGt70%s_pT_35_to_40'   % (dm,cat_extra)),
+      ((i+1)*100+15,  'mt_DM%i_tau_cp_mTGt70%s_pT_40_to_50'   % (dm,cat_extra)),
+      ((i+1)*100+16,  'mt_DM%i_tau_cp_mTGt70%s_pT_50_to_60'   % (dm,cat_extra)),
+      ((i+1)*100+17,  'mt_DM%i_tau_cp_mTGt70%s_pT_60_to_80'   % (dm,cat_extra)),
+      ((i+1)*100+18,  'mt_DM%i_tau_cp_mTGt70%s_pT_80_to_100'  % (dm,cat_extra)),
+      ((i+1)*100+19,  'mt_DM%i_tau_cp_mTGt70%s_pT_100_to_200' % (dm,cat_extra)),
       ]
+      #  ((i+1)*100+21,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_20_to_25'   % (dm,cat_extra)),
+      #  ((i+1)*100+22,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_25_to_30'   % (dm,cat_extra)),
+      #  ((i+1)*100+23,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_30_to_35'   % (dm,cat_extra)),
+      #  ((i+1)*100+24,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_35_to_40'   % (dm,cat_extra)),
+      #  ((i+1)*100+25,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_40_to_50'   % (dm,cat_extra)),
+      #  ((i+1)*100+26,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_50_to_60'   % (dm,cat_extra)),
+      #  ((i+1)*100+27,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_60_to_80'   % (dm,cat_extra)),
+      #  ((i+1)*100+28,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_80_to_100'  % (dm,cat_extra)),
+      #  ((i+1)*100+29,  'mt_DM%i_tau_cp_mTLt65%s_aiso_pT_100_to_200' % (dm,cat_extra)),
+      
 
       cr_bins+=[(i+1)*100+j+10 for j in range(1,10) ]
       # cr_bins+=[(i+1)*100+j+20 for j in range(1,10) ]
@@ -237,7 +237,13 @@ cb.cp().channel(['mt']).process(['ZTT','TTT','TTL','VVT','VVL']).bin_id(dm11_bin
 # mu->tauh energy scale split by decay mode (might want to eventually make sure these don't get added for dm 10 and 11)
 cb.cp().channel(['mt']).process(['ZL']).bin_id(dm0_bins+inclusive_bins).AddSyst(cb, "CMS_scale_mu_1prong_$ERA", "shape", ch.SystMap()(1.00))
 cb.cp().channel(['mt']).process(['ZL']).bin_id(dm1_bins+inclusive_bins).AddSyst(cb, "CMS_scale_mu_1prong1pizero_$ERA", "shape", ch.SystMap()(1.00))
-cb.cp().channel(['mt']).process(['ZL']).bin_id(dm2_bins+inclusive_bins).AddSyst(cb, "CMS_scale_mu_1prong2pizero_$ERA", "shape", ch.SystMap()(1.00))
+
+if "Run3_2023" in eras:
+  print(f"\n\n\n WARNING, temp fix for 23 \n\n\n\n")
+  cb.cp().channel(['mt']).process(['ZL']).bin_id([b for b in dm2_bins if b != 305]+inclusive_bins).AddSyst(cb, "CMS_scale_mu_1prong2pizero_$ERA", "shape", ch.SystMap()(1.00))
+else:
+  print(f"\n\n\n Using bin 305 as usual \n\n\n\n")
+  cb.cp().channel(['mt']).process(['ZL']).bin_id(dm2_bins+inclusive_bins).AddSyst(cb, "CMS_scale_mu_1prong2pizero_$ERA", "shape", ch.SystMap()(1.00))
 
 #MET related uncertainties
 if any(era in eras for era in ['2016_preVFP', '2016_postVFP', '2017', '2018','Run3_2022','Run3_2022EE','Run3_2023','Run3_2023BPix']):
@@ -290,6 +296,16 @@ cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([8,1
 cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([9,19]).AddSyst(cb, "rate_tauSF_DMinclusive_pT100to200_$ERA","rateParam",ch.SystMap()(1.0))
 
 for i, dm in enumerate([0,1,2,10,11]):
+  
+# if want to merge pt bins:
+  # if (dm == 2) or (dm == 11):
+  #   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+1+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT20to30_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
+  #   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+3+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT30to40_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
+  #   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+5+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT40to60_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
+  #   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+7+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT60to80_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
+  #   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+8+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT80to100_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
+  #   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+9+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT100to200_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
+  # else:
   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+1+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT20to25_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+2+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT25to30_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
   cb.cp().channel(['mt']).process(["ZTT", "TTT", 'TTL', "VVT", 'VVL']).bin_id([(i+1)*100+3+x for x in [0,10]]).AddSyst(cb, "rate_tauSF_DM%i_pT30to35_$ERA" % dm,"rateParam",ch.SystMap()(1.0))
@@ -305,10 +321,10 @@ if useCRs:
 
   for p in ['W']:
 # REMOVED QCD HERE
-    cb.cp().channel(['mt']).process([p]).bin_id([1,11,21]).AddSyst(cb, "rate_%s_pT20to25_$ERA" %p,"rateParam",ch.SystMap()(1.0))
-    cb.cp().channel(['mt']).process([p]).bin_id([2,12,22]).AddSyst(cb, "rate_%s_pT25to30_$ERA" %p,"rateParam",ch.SystMap()(1.0))
-    cb.cp().channel(['mt']).process([p]).bin_id([3,13,23]).AddSyst(cb, "rate_%s_pT30to35_$ERA" %p,"rateParam",ch.SystMap()(1.0))
-    cb.cp().channel(['mt']).process([p]).bin_id([4,14,24]).AddSyst(cb, "rate_%s_pT35to40_$ERA" %p,"rateParam",ch.SystMap()(1.0))
+    cb.cp().channel(['mt']).process([p]).bin_id([1,11]).AddSyst(cb, "rate_%s_pT20to25_$ERA" %p,"rateParam",ch.SystMap()(1.0))
+    cb.cp().channel(['mt']).process([p]).bin_id([2,12]).AddSyst(cb, "rate_%s_pT25to30_$ERA" %p,"rateParam",ch.SystMap()(1.0))
+    cb.cp().channel(['mt']).process([p]).bin_id([3,13]).AddSyst(cb, "rate_%s_pT30to35_$ERA" %p,"rateParam",ch.SystMap()(1.0))
+    cb.cp().channel(['mt']).process([p]).bin_id([4,14]).AddSyst(cb, "rate_%s_pT35to40_$ERA" %p,"rateParam",ch.SystMap()(1.0))
     #cb.cp().channel(['mt']).process([p]).bin_id([5,15,25]).AddSyst(cb, "rate_%s_pT40to50_$ERA" %p,"rateParam",ch.SystMap()(1.0))
     #cb.cp().channel(['mt']).process([p]).bin_id([6,16,26]).AddSyst(cb, "rate_%s_pT50to60_$ERA" %p,"rateParam",ch.SystMap()(1.0))
     #cb.cp().channel(['mt']).process([p]).bin_id([7,17,27]).AddSyst(cb, "rate_%s_pT60to80_$ERA" %p,"rateParam",ch.SystMap()(1.0))
@@ -365,16 +381,16 @@ if useCRs:
  #   qcd_scales_uncerts    = [0.37, 0.26, 0.42, 1.17]
 
   # LUCAS KLITOS TEMP TRIAL
-  for i, dm in enumerate([0,1,2,10,11]):
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+1+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+2+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+3+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+4+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+5+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+6+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+7+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+8+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
-    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+9+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  # for i, dm in enumerate([0,1,2,10,11]):
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+1+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+2+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+3+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+4+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+5+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+6+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+7+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+8+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
+  #   cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+9+x for x in [0,10]]).AddSyst(cb, "CMS_QCD_extrap_stat_DM%i" % dm, "lnN", ch.SystMap()(1+qcd_scales_uncerts[i]/qcd_scales[i]))
 
   # for QCD CR the SF for MC were not derived for aiso events so introduce a new uncertainty for the MC processes in this region
   # cb.cp().channel(['mt']).process(['QCD'],False).bin_id(qcd_cr_bins).AddSyst(cb, "CMS_aiso_eff", "lnN", ch.SystMap()(1.2))
@@ -407,13 +423,13 @@ cb.cp().channel(['mt']).process(['W']).AddSyst(cb, "CMS_scale_jfake", "shape", c
 for era in eras:
   cb.GetParameter("rate_DY_%s" % era).set_range(0.5,1.5)
   for i, dm in enumerate([0,1,2,10,11]):
-     pt_bins = [20,25,30,35,40,200]
-     for j in range(5):
-        # cb.GetParameter("rate_QCD_DM%i_pT%ito%i_%s" %(dm, pt_bins[j], pt_bins[j+1], era)).set_range(0.5,3)
-        cb.GetParameter("rate_W_DM%i_pT%ito%i_%s" % (dm, pt_bins[j], pt_bins[j+1], era)).set_range(0.5,3)
-     pt_bins = [20,25,30,35,40,50,60,80,100,200]
-     for j in range(9):
-        cb.GetParameter("rate_tauSF_DM%i_pT%ito%i_%s" % (dm, pt_bins[j], pt_bins[j+1], era)).set_range(0,4)
+    pt_bins = [20,25,30,35,40,200]
+    for j in range(5):
+      # cb.GetParameter("rate_QCD_DM%i_pT%ito%i_%s" %(dm, pt_bins[j], pt_bins[j+1], era)).set_range(0.5,3)
+      cb.GetParameter("rate_W_DM%i_pT%ito%i_%s" % (dm, pt_bins[j], pt_bins[j+1], era)).set_range(0.5,3)
+    pt_bins = [20,25,30,35,40,50,60,80,100,200]
+    for j in range(9):
+      cb.GetParameter("rate_tauSF_DM%i_pT%ito%i_%s" % (dm, pt_bins[j], pt_bins[j+1], era)).set_range(0,4)
 
 # Populating Observation, Process and Systematic entries in the harvester instance
 for chn in channels:
@@ -431,15 +447,15 @@ for chn in channels:
 # scaling QCD central value for all datacards except the QCD CR ones
 if useCRs:
    for i, dm in enumerate([0,1,2,10,11]):
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+1+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+2+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+3+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+4+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+5+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+6+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+7+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+8+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
-     cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+9+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+1+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+2+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+3+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+4+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+5+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+6+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+7+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+8+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
+    cb.cp().channel(['mt']).process(['QCD']).bin_id([(i+1)*100+9+x for x in [0,10]]).ForEachProc(lambda x: x.set_rate(x.rate()*qcd_scales[i]))
 # now we clone the j->tauh energy scale uncertainties for each era to ensure they are correlated and uncorrelated components of equal magnitudes (i.e a 50% correlation between eras)
 
 for era in eras:
@@ -471,13 +487,18 @@ for b in cb.cp().channel(['mm']).bin_set():
 print(green("Zeroing NegativeYields"))
 cb.ForEachProc(NegativeYields)
 
+print("Starting auto Rebinning")
+
 rebin = AutoRebin()
 #rebin.SetBinThreshold(100)
-rebin.SetBinUncertFraction(0.2)
+rebin.SetBinUncertFraction(0.3)
 rebin.SetRebinMode(1)
 rebin.SetPerformRebin(True)
 rebin.SetVerbosity(1)
 rebin.Rebin(cb,cb)
+
+print("Finished auto Rebinning")
+
 
 # Merge to one bin for QCD and W CRs
 # for b in cb.cp().channel(['mt']).bin_id(qcd_cr_bins,True).bin_set():
