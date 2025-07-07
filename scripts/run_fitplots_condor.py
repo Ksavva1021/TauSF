@@ -27,7 +27,7 @@ source /vols/grid/cms/setup.sh
 cd /vols/cms/lcr119/offline/HiggsCP/IDSFs/CMSSW_14_1_0_pre4/src/CombineHarvester/TauSF
 cmsenv
 echo "Environment activated..."
-python3 scripts/PostFitShapesCombEras.py -f {fit_dir}/cmb/multidimfit.ztt.bestfit.singles.robustHesse.root:fit_mdf -w {fit_dir}/cmb/ws.root -d {fit_dir}/cmb/combined.txt.cmb --output {os.path.join(args.fit_dir, 'postfit')}/{bin_name}_postfit.root -b {bin_name} --postfit
+python3 scripts/PostFitShapesCombEras.py -f {fit_dir}/cmb/multidimfit.ztt.bestfit.singles.postfit.root:fit_mdf -w {fit_dir}/cmb/ws.root -d {fit_dir}/cmb/combined.txt.cmb --output {os.path.join(args.fit_dir, 'postfit')}/{bin_name}_postfit.root -b {bin_name} --postfit
 python3 scripts/postFitPlots.py --file {os.path.join(args.fit_dir, 'postfit')}/{bin_name}_postfit.root --file_dir {bin_name} --ratio --ratio_range 0.5,1.5 --mode postfit
 """
         submission_file_content = f"""
