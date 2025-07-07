@@ -184,6 +184,6 @@ def PlotSF(f, h, name, title='', output_folder='./'):
   latex.SetTextFont(42)
   latex.SetTextSize(0.05)
   latex.SetTextAlign(31)
-  latex.DrawLatex(0.9, 0.91, "#scale[0.8]{59.7 fb^{-1} (13 TeV)}") #UL
-  #latex.DrawLatex(0.9, 0.91, "#scale[0.8]{35.1 fb^{-1} (13.6 TeV)}") #2022
+  latex.DrawLatex(0.9, 0.91, "#scale[0.8]{(13.6 TeV)}") # Run 3 (generic)
+  # latex.DrawLatex(0.9, 0.91, "#scale[0.8]{59.7 fb^{-1} (13 TeV)}") # UL
   c1.Print(output_folder+'/'+name+'.pdf')
